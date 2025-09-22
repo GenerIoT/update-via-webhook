@@ -1,6 +1,6 @@
 # Ruuvi Update Script
 
-This repository contains scripts for updating Ruuvi sensor data.
+This repository contains scripts for updating RuuviTag on host using webhook.
 
 ## Requirements
 
