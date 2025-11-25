@@ -15,7 +15,7 @@ echo "Downloading firmware from ${url}..."
 wget "$url" -O "$FIRMWARE_FILE"
 
 echo "Flashing firmware to RuuviTag..."
-python3 -u /home/raspi/ota-dfu-python/dfu.py --address=$mac --zip=$FIRMWARE_FILE --ruuvitag=$id
+python3 -u /usr/ota-dfu-python/dfu.py --address=$mac --zip=$FIRMWARE_FILE --ruuvitag=$id
 return_code=$?
 
 rm -f "$FIRMWARE_FILE"

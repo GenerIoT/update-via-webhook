@@ -20,5 +20,5 @@ Make sure Webhook is running in the host.
 Update RuuviTag from docker container with the script:
 
 ```sh
-./ruuvi-update.sh
+./ruuvi-update.sh <RUUVI-IMAGE-URL>
 ```
